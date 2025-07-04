@@ -45,7 +45,7 @@ var jsonData = JSON.parse(responseBody);
 pm.globals.set("jwt_tutorial_token", jsonData.token);
 ```
 위와 같이 입력하면 postman에서 글로벌 변수로 활용 가능
-<img src="image/global.png"  width="450"/>
+<br><img src="image/global.png"  width="450"/>
 
 ### signUp
 ```
